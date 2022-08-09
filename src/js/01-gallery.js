@@ -3,9 +3,9 @@ import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
 // Opisany w dokumentacji
-import SimpleLightbox from './simplelightbox';
+import SimpleLightbox from 'simplelightbox';
 // Dodatkowy import stylów
-import './simplelightbox/dist/simple-lightbox.min.css';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const gallery = document.querySelector('.gallery');
 
